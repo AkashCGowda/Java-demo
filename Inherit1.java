@@ -1,10 +1,10 @@
-class parent{
+class parent8{
     public void m1(){
         System.out.println("Parent");
     }
 }
 
-class child extends parent{
+class child extends parent8{
     public void m2(){
         System.out.println("Child");
     }
@@ -17,7 +17,7 @@ public class Inherit1 {
     public  static void main(String[] args){
 
         //parent reference parent object
-        parent p = new parent();
+        parent8 p = new parent8();
         p.m1();
         // p.m2(); parent object cannot call child method
 
@@ -29,7 +29,7 @@ public class Inherit1 {
 
 
         //parent reference child object
-        parent p2= new child();
+        parent8 p2= new child();
         p2.m1();
         //p2.m2(); cannot call child method in parent reference child object
 
