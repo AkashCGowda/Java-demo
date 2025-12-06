@@ -19,6 +19,7 @@ class Doubledisplay extends Thread{
         this.name=name;
     }
     public void run(){
+
         d.wish(name);
     }
 }
